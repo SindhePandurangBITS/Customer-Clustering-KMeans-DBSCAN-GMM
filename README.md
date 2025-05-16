@@ -23,9 +23,9 @@ Many times we make mistakes by treating all leads the same, wasting budget on un
 
 | Algorithm | Chosen K/Params   | Silhouette | Calinski-Harabasz | Noise % | Run-time | Interpretability  |
 | --------- | ----------------- | ---------- | ----------------- | ------- | -------- | ----------------- |
-| K-Means   | K = 4             | 0.145      | 2350              | 0 %     | 0.2 s    | ✔ Very high       |
-| DBSCAN    | eps = 1.1, min=10 | 0.180      | 980               | 25 %    | 0.5 s    | ▲ Moderate        |
-| GMM       | K = 6 (BIC min)   | 0.221      | 2100              | 0 %     | 1.5 s    | △ Softer clusters |
+| K-Means   | K = 4             | 0.145      | 2350              | 0 %     | 0.2 s    |  Very high       |
+| DBSCAN    | eps = 1.1, min=10 | 0.180      | 980               | 25 %    | 0.5 s    |  Moderate        |
+| GMM       | K = 6 (BIC min)   | 0.221      | 2100              | 0 %     | 1.5 s    |  Softer clusters |
 
 **Stability tests:**
 
